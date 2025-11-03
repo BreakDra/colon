@@ -49,15 +49,17 @@ div{
   }
 }
 
-@media (max-width: 772px) {
-  div {
-    width: 45vw;
-  }
-
-  div img {
-    max-height: 30vh;
-  }
+@media screen and (max-width: 772px) {
+    div {
+        display: inline-block;
+        width: 45vw;
+        margin: 5px;
+        padding: 2px;
+        vertical-align: top;
+    }
 }
+
+
 
 
 
